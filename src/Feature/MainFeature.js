@@ -2,7 +2,7 @@
 import React from 'react';
 import Feature from './Feature'
 
-class Customize extends React.Component {
+class MainFeature extends React.Component {
     
     render() {
         return (
@@ -18,4 +18,4 @@ class Customize extends React.Component {
     }
 }
 
-export default Customize
+export default MainFeature
