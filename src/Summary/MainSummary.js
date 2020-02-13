@@ -2,7 +2,7 @@ import React from 'react';
 import Summary from './Summary';
 
 
-class Cart extends React.Component {
+class MainSummary extends React.Component {
     render() {
             const total = Object.keys(this.props.selected).reduce(
                 (acc, curr) => acc + this.props.selected[curr].cost,
@@ -25,4 +25,4 @@ class Cart extends React.Component {
     }
 }
 
-export default Cart
+export default MainSummary
